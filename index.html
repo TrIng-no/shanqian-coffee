@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>山前咖啡 | 社区精品咖啡与轻食</title>
+    <meta
+      name="description"
+      content="山前咖啡是一家社区精品咖啡与轻食店，提供手冲咖啡、早午餐、工作日套餐和到店导航。"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar" id="top">
+      <a class="brand" href="#top" aria-label="回到页面顶部">
+        <span class="brand-mark">山</span>
+        <span>
+          <strong>山前咖啡</strong>
+          <small>社区精品咖啡与轻食</small>
+        </span>
+      </a>
+      <div class="top-actions" aria-label="门店快捷操作">
+        <span class="open-pill">今日营业 08:00-21:30</span>
+        <a href="tel:021-61189230">电话咨询</a>
+        <a href="https://maps.google.com/?q=上海市徐汇区衡山路88号" target="_blank" rel="noreferrer">导航</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media">
+          <img
+            src="https://images.pexels.com/photos/1833769/pexels-photo-1833769.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="阳光下的社区咖啡店室内座位"
+          >
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">步行 3 分钟到店 · 可外带 · 可安静办公</p>
+          <h1 id="hero-title">山前咖啡</h1>
+          <p class="hero-lede">
+            社区精品咖啡与轻食，早上来一杯手冲，午后坐下吃份热压三明治。
+          </p>
+          <div class="offer">
+            <span>新客轻享套餐</span>
+            <strong>手冲咖啡 + 可颂 38 元</strong>
+          </div>
+          <div class="hero-actions">
+            <button type="button" class="primary-action" data-copy-wechat>微信咨询</button>
+            <a class="secondary-action" href="#menu">看菜单价格</a>
+          </div>
+          <p class="copy-status" data-copy-status>微信号：shanqian-coffee</p>
+        </div>
+      </section>
+
+      <section class="quick-nav" aria-label="页面导航">
+        <a href="#signature">招牌推荐</a>
+        <a href="#menu">菜单价格</a>
+        <a href="#visit">为什么来这里</a>
+        <a href="#info">门店信息</a>
+      </section>
+
+      <section class="section" id="signature" aria-labelledby="signature-title">
+        <div class="section-heading">
+          <p class="eyebrow">今日适合点这些</p>
+          <h2 id="signature-title">招牌推荐</h2>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <img
+              src="https://images.pexels.com/photos/17324491/pexels-photo-17324491.jpeg?auto=compress&cs=tinysrgb&w=1000"
+              alt="桌面上的热咖啡杯"
+            >
+            <div>
+              <h3>山前拿铁</h3>
+              <p>坚果香明显，奶感顺滑，适合第一次来店的顾客。</p>
+              <strong>28 元</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <img
+              src="https://images.pexels.com/photos/7125785/pexels-photo-7125785.jpeg?auto=compress&cs=tinysrgb&w=1000"
+              alt="咖啡师正在制作手冲咖啡"
+            >
+            <div>
+              <h3>每日手冲</h3>
+              <p>根据当天豆单推荐，偏花果香，适合慢慢喝。</p>
+              <strong>36 元起</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <img
+              src="https://images.pexels.com/photos/9997558/pexels-photo-9997558.jpeg?auto=compress&cs=tinysrgb&w=1000"
+              alt="咖啡和甜点摆在木质桌面上"
+            >
+            <div>
+              <h3>可颂早午餐</h3>
+              <p>现烤可颂、滑蛋、沙拉，适合工作日前的轻食。</p>
+              <strong>42 元</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <img
+              src="https://images.pexels.com/photos/13959380/pexels-photo-13959380.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="咖啡店吧台和座位区域"
+            >
+            <div>
+              <h3>双人下午茶</h3>
+              <p>两杯饮品配一份甜点，适合朋友小聚或轻办公。</p>
+              <strong>68 元</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <p class="eyebrow">价格透明，点单不纠结</p>
+          <h2 id="menu-title">菜单价格</h2>
+        </div>
+        <div class="filter-row" aria-label="菜单分类">
+          <button type="button" class="is-active" data-filter="all">全部</button>
+          <button type="button" data-filter="coffee">咖啡</button>
+          <button type="button" data-filter="food">轻食</button>
+          <button type="button" data-filter="dessert">甜品</button>
+        </div>
+        <div class="menu-list">
+          <article data-category="coffee">
+            <span>山前拿铁</span>
+            <p>中深烘焙，坚果与奶油感</p>
+            <strong>28 元</strong>
+          </article>
+          <article data-category="coffee">
+            <span>橙香美式</span>
+            <p>清爽果香，适合午后</p>
+            <strong>26 元</strong>
+          </article>
+          <article data-category="coffee">
+            <span>每日手冲</span>
+            <p>当日豆单，店员推荐</p>
+            <strong>36 元起</strong>
+          </article>
+          <article data-category="food">
+            <span>可颂早午餐</span>
+            <p>可颂、滑蛋、沙拉</p>
+            <strong>42 元</strong>
+          </article>
+          <article data-category="food">
+            <span>热压火腿芝士</span>
+            <p>现压出餐，可堂食可外带</p>
+            <strong>32 元</strong>
+          </article>
+          <article data-category="dessert">
+            <span>巴斯克芝士蛋糕</span>
+            <p>口感绵密，甜度适中</p>
+            <strong>29 元</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section visit-section" id="visit" aria-labelledby="visit-title">
+        <div class="section-heading">
+          <p class="eyebrow">不只是买杯咖啡</p>
+          <h2 id="visit-title">为什么来这里</h2>
+        </div>
+        <div class="reason-grid">
+          <article>
+            <h3>安静靠窗座位</h3>
+            <p>工作日白天更安静，适合带电脑处理一小时事情。</p>
+          </article>
+          <article>
+            <h3>出餐不绕弯</h3>
+            <p>常规饮品 5 分钟内出杯，轻食现做也会提前说明等待时间。</p>
+          </article>
+          <article>
+            <h3>附近办公友好</h3>
+            <p>有插座、Wi-Fi 和小桌位，午休或等人都方便。</p>
+          </article>
+          <article>
+            <h3>宠物可在外摆区</h3>
+            <p>天气好时可以坐外摆，店员会准备饮水碗。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reviews-section" aria-labelledby="reviews-title">
+        <div class="section-heading">
+          <p class="eyebrow">顾客怎么说</p>
+          <h2 id="reviews-title">顾客怎么说</h2>
+        </div>
+        <div class="review-list">
+          <blockquote>
+            <p>“拿铁很稳，座位不吵，下午来处理邮件刚刚好。”</p>
+            <cite>附近办公的老顾客</cite>
+          </blockquote>
+          <blockquote>
+            <p>“可颂是热的，套餐比单点省心，早上路过会带一份。”</p>
+            <cite>工作日早餐顾客</cite>
+          </blockquote>
+          <blockquote>
+            <p>“店不大但舒服，朋友来附近我一般约这里。”</p>
+            <cite>周末到店顾客</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="section info-section" id="info" aria-labelledby="info-title">
+        <div class="section-heading">
+          <p class="eyebrow">来之前看这里</p>
+          <h2 id="info-title">门店信息</h2>
+        </div>
+        <div class="info-layout">
+          <div class="info-map" aria-label="山前咖啡附近街区示意">
+            <span>衡山路</span>
+            <strong>山前咖啡</strong>
+            <small>地铁口步行约 3 分钟</small>
+          </div>
+          <dl class="info-list">
+            <div>
+              <dt>地址</dt>
+              <dd>上海市徐汇区衡山路 88 号 1 层</dd>
+            </div>
+            <div>
+              <dt>营业时间</dt>
+              <dd>周一至周日 08:00-21:30</dd>
+            </div>
+            <div>
+              <dt>电话</dt>
+              <dd><a href="tel:021-61189230">021-6118 9230</a></dd>
+            </div>
+            <div>
+              <dt>微信</dt>
+              <dd>shanqian-coffee</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <p class="eyebrow">常见问题</p>
+          <h2 id="faq-title">常见问题</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>可以外带吗？</summary>
+            <p>可以。咖啡、轻食和甜品都支持外带，早高峰建议先微信咨询。</p>
+          </details>
+          <details>
+            <summary>可以预约座位吗？</summary>
+            <p>工作日可帮你保留 30 分钟，周末以现场座位为准。</p>
+          </details>
+          <details>
+            <summary>店里有 Wi-Fi 吗？</summary>
+            <p>有，点单后可向店员获取 Wi-Fi 信息。</p>
+          </details>
+          <details>
+            <summary>新客轻享套餐每天都有吗？</summary>
+            <p>套餐在工作日 08:00-11:00 供应，售完会在微信里提醒。</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <aside class="desktop-summary" aria-label="快速咨询">
+      <strong>想先问问？</strong>
+      <span>复制微信号或直接电话咨询</span>
+      <button type="button" data-copy-wechat>微信咨询</button>
+      <a href="tel:021-61189230">电话咨询</a>
+    </aside>
+
+    <nav class="bottom-actions" aria-label="底部快捷操作">
+      <button type="button" data-copy-wechat>微信咨询</button>
+      <a href="tel:021-61189230">电话咨询</a>
+      <a href="https://maps.google.com/?q=上海市徐汇区衡山路88号" target="_blank" rel="noreferrer">导航到店</a>
+    </nav>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
